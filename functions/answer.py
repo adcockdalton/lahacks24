@@ -1,5 +1,5 @@
 import json
-from check import internalCheck
+from .check import internalCheck
 
 def storeAnswer(id: str, answer: str):
     json_data = None 

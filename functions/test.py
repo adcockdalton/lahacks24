@@ -1,7 +1,7 @@
 import json
 import uuid
 import os
-from check import internalCheck
+from .check import internalCheck
 
 
 def storeValue(parameter: dict):

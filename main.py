@@ -1,8 +1,7 @@
 from fastapi import FastAPI
 
-
 from functions.answer import storeAnswer
-from functions.test import setValue, getQuestion
+from functions.test import storeValue, getQuestion
 
 app = FastAPI()
 
@@ -12,7 +11,7 @@ async def root():
 
 @app.get("/setUser")
 async def setUser(parameter: dict):
-    return {"uuid": setValue(parameter)}
+    return {"uuid": storeValue(parameter)}
 
 @app.get("/question")
 async def question():
