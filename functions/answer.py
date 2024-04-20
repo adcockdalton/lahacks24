@@ -1,7 +1,7 @@
 import json
 from check import internalCheck
 
-def storeAnswer(id, answer):
+def storeAnswer(id: str, answer: str):
     json_data = None 
     with open('context.json', 'r+') as json_file:
         json_data         = json.load(json_file)
@@ -18,4 +18,4 @@ def storeAnswer(id, answer):
         json_file.truncate() 
 
 
-storeAnswer("bbc2b7ea-0a38-4a11-9e73-380f06937b54", "Hello")
+#storeAnswer("bbc2b7ea-0a38-4a11-9e73-380f06937b54", "Hello")
