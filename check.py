@@ -3,7 +3,7 @@ import json
 def internalCheck(id: str):
 
     json_data = None 
-    with open('context.json', 'r') as json_file:
+    with open('context.json', 'r+') as json_file:
         json_data         = json.load(json_file)
 
         if len(json_data[id]) == 5:
@@ -14,8 +14,11 @@ def internalCheck(id: str):
             elif json_data[id]["Q"] != len(json_data[id]["context"]):
                 return {"Q": json_data[id]["Q"], "initial": json_data[id]["initial"][json_data[id]["Q"]-1], "context":""}
             else:
+
                 json_data[id]["Q"] += 1
+                json_file.seek(0)  # Move file pointer to the start of the file
                 json.dump(json_data, json_file)
+                json_file.truncate() 
                 return {"Q": json_data[id]["Q"], "initial": "", "context":""}
         
 

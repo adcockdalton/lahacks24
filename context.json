@@ -1,17 +1,1 @@
-{
-    "7314bb45-03f0-4349-9e74-9784b328fa85":{
-        "Q": 1,
-        "initial":[],
-        "context":[]
-    },
-    "db9fdb03-9e18-49d1-a1b1-32e4ae4d79c6":{
-        "Q":1,
-        "initial":["My favorite activity is rock climbing."],
-        "context":[]
-    },
-    "bbc2b7ea-0a38-4a11-9e73-380f06937b54":{
-        "Q":1,
-        "initial":["My favorite activity is rock climbing."],
-        "context":["I love rock climbing because it lets me be outside."]
-    }
-}
+{"7314bb45-03f0-4349-9e74-9784b328fa85": {"Q": 1, "initial": [], "context": []}, "db9fdb03-9e18-49d1-a1b1-32e4ae4d79c6": {"Q": 1, "initial": ["My favorite activity is rock climbing."], "context": []}, "bbc2b7ea-0a38-4a11-9e73-380f06937b54": {"Q": 2, "initial": ["My favorite activity is rock climbing."], "context": ["I love rock climbing because it lets me be outside."]}}
