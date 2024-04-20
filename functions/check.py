@@ -22,6 +22,6 @@ def internalCheck(id: str):
                 return {"Q": json_data[id]["Q"], "initial": "", "context":""}
         
 
-print(internalCheck("7314bb45-03f0-4349-9e74-9784b328fa85"))
-print(internalCheck("db9fdb03-9e18-49d1-a1b1-32e4ae4d79c6"))
-print(internalCheck("bbc2b7ea-0a38-4a11-9e73-380f06937b54"))
+# print(internalCheck("7314bb45-03f0-4349-9e74-9784b328fa85"))
+# print(internalCheck("db9fdb03-9e18-49d1-a1b1-32e4ae4d79c6"))
+# print(internalCheck("bbc2b7ea-0a38-4a11-9e73-380f06937b54"))

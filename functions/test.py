@@ -1,6 +1,8 @@
 import json
 import uuid
 import os
+from check import internalCheck
+
 
 def storeValue(parameter: dict):
     # Path to the JSON file
@@ -26,15 +28,23 @@ def storeValue(parameter: dict):
     return myuuid
 
 
-def getValue(uuid: str):
+def getQuestion(uuid: str):
     # get the value from the json file by uuid
+    questionStatus = internalCheck(uuid)
+    if questionStatus == "Done":
+        return "Done"
+    else:
+        return questionStatus
 
-    with open('user.json', 'r') as json_file:
-        json_data = json.load(json_file)
-        return json_data[uuid]
+#### test storeValue function
+#-------------------------------
+# parameter = {'name': 'John', 'birthday': '1990-01-01'}
+# myUUID    = storeValue(parameter)
+# with open('user.json', 'r+') as json_file:
+#     json_data         = json.load(json_file)
+#     print(json_data)
 
-parameter = {'name': 'John', 'birthday': '1990-01-01'}
-myUUID    = storeValue(parameter)
-with open('user.json', 'r+') as json_file:
-    json_data         = json.load(json_file)
-    print(json_data)
+
+sample_uuid = "db9fdb03-9e18-49d1-a1b1-32e4ae4d79c6"
+output = getQuestion(sample_uuid)
+print(output)
