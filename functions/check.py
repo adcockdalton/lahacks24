@@ -3,10 +3,10 @@ import json
 def internalCheck(id: str):
 
     json_data = None 
-    with open('context.json', 'r+') as json_file:
+    with open('../data/context.json', 'r+') as json_file:
         json_data         = json.load(json_file)
 
-        if len(json_data[id]) == 5:
+        if json_data[id]["Q"] >= 5:
             return "Done"
         else:
             if json_data[id]["Q"] != len(json_data[id]["initial"]):
