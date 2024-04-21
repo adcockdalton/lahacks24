@@ -75,7 +75,10 @@ function Login() {
 
     function onSubmit(data) {
         console.log(data);
-        navigate("/register");
+
+        const UUID = "123"; // TODO: make this the actual UUID
+
+        navigate("/register/" + UUID);
     }
 
     return (
