@@ -1,11 +1,15 @@
 import json
 import os
 
-from uagents import Context, Protocol, Agent
+from uagents import Context, Protocol, Agent, Bureau
+from uagents.query import query
 
 from multiagency2.embedder import EventEmbedder
 from multiagency2.vector_db import VectorDB
+from multiagency2.weatherman import WeatherRequest, weatherman
 
+
+# WEATHERMAN = "agent1qv7h7t3fxqpkxvnzuy5yh4a8z4jd5tvlv7s7hnxyxxwgglrzn4cgxnwt970"
 
 student_manager = Agent(name = "student manager", seed = "student")
 eb = EventEmbedder()
@@ -16,9 +20,8 @@ def find_similarity(*, request: str, n_results: int):
     return vdb.query(query_embeddings = eb.get_embeddings([request])[0], n_results = n_results)
 
 
-@student_manager.on_event("start")
+@student_manager.on_event("startup")
 async def init(ctx: Context):
-    # initialize vector db (with a local path to load/save datas)
     pass
 
 
@@ -33,13 +36,15 @@ async def check_new_student(ctx: Context):  # for each new student created
 
     # manage file data
 
-    with open("../data/user.json", "r") as fobj:
-        user_data: dict = json.load(fobj)
+    try:
+        with open("../data/user.json", "r") as fobj:
+            user_data: dict = json.load(fobj)
 
-    with open("../data/context.json", "r") as fobj:
-        context_data: dict = json.load(fobj)
+        with open("../data/context.json", "r") as fobj:
+            context_data: dict = json.load(fobj)
+    except FileNotFoundError:
+        return
 
-    # TODO
     # os.remove("../data/user.json")
     # os.remove("../data/context.json")
 
@@ -47,12 +52,19 @@ async def check_new_student(ctx: Context):  # for each new student created
     # add itself to the vector embedding (mainly to store the address id)
 
     for uuid, data in user_data.items():
-        primary_answers = " ".join(context_data[uuid]["initial"])
-        contextual_answers = " ".join(context_data[uuid]["context_question"])
+        try:
+            primary_answers = " ".join(context_data[uuid]["initial"])
+            contextual_answers = " ".join(context_data[uuid]["context_question"])
+        except KeyError:
+            continue
         persona = primary_answers+" "+contextual_answers
         events = find_similarity(request = persona, n_results = 3)
 
         print(uuid, persona, events)
+        for county_state in events["metadatas"][0][0].values():
+            county, state = county_state.split(" County, ")
+            report = await query(destination = weatherman.address, message = WeatherRequest(county = county, state = state))
+            print(report)
         # print(uuid, data, " ".join(context_data[uuid]["initial"]), " ".join(context_data[uuid]["context_question"]))
 
     with open("../data/event_result.json", "w") as fobj:
@@ -66,7 +78,6 @@ async def check_new_student(ctx: Context):  # for each new student created
           },
             fobj
         )
-        json.load(fobj)
 
     # vector embed and request the most similar events for each user
     # request weather data? alongside
@@ -85,4 +96,7 @@ if __name__ == '__main__':
     #         ids = [event["ids"]]
     #     )
 
-    student_manager.run()
+    b = Bureau()
+    b.add(weatherman)
+    b.add(student_manager)
+    b.run()
