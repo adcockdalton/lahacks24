@@ -3,11 +3,11 @@ from .check import internalCheck
 
 def storeAnswer(id: str, answer: str):
     json_data = None 
-    with open('context.json', 'r+') as json_file:
+    with open("data/context.json", 'r+') as json_file:
         json_data         = json.load(json_file)
 
         data = internalCheck(id)
-
+        
         if data["initial"] == "":
             json_data[id]["initial"].append(answer)
         else:
