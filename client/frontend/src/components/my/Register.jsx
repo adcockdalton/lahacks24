@@ -1,10 +1,10 @@
 import React from "react";
-import { useEffect, useState, useParams } from 'react';
+import { useEffect } from "react";
 import styled from "styled-components";
 
 import { ChevronsRight } from "lucide-react";
 
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 
 import { Calendar as CalendarIcon, UserRound as User } from "lucide-react";
 
@@ -30,6 +30,7 @@ import {
 import {
     Card,
     CardContent,
+    CardTitle,
     CardDescription,
     CardFooter,
     CardHeader,
@@ -57,15 +58,43 @@ const Background = styled.div`
     justify-content: space-evenly;
 `;
 
+const FormSchema = z.object({
+    answer: z.string().min(10, {
+        message: "Answer must be at least 10+ characters.",
+    }),
+});
+
 function Register() {
-    const { userUUID } = useParams();
-    const [question, setQuestion] = useState("");
     const navigate = useNavigate();
+    const {UUID} = useParams();
+    console.log(UUID);
+    const [question, setQuestion] = React.useState("");
+
+    const form = useForm({
+        resolver: zodResolver(FormSchema),
+        defaultValues: {
+            answer: "",
+        },
+    });
+
+    useEffect(() => {
+        fetch('http://127.0.0.1:8000/question', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ uuid: UUID })
+        })
+            .then(response => response.json())
+            .then(data => setQuestion(data.question));  // Replace 'question' with the actual key in the response
+        form.reset();
+    }, [UUID]);
 
     async function onSubmit(data) {
         console.log(data);
-        
-        const response = await fetch('/api/login', {
+        //Add UUId to data
+        data["uuid"] = UUID;
+        const response = await fetch('http://127.0.0.1:8000/setAnswer', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -74,59 +103,55 @@ function Register() {
         });
     
         if (response.ok) {
-            const result = await response.json();
-    
-            // TODO: replace "123" with the actual UUID from the response
-            const UUID = result.uuid || "123";
-    
-            navigate("/register/" + UUID);
+            //fetch 'http://127.0.0.1:8000/question' for the next question
+            fetch('http://127.0.0.1:8000/question', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ uuid: UUID })
+            })
+                .then(response => response.json())
+                .then(data => setQuestion(data.question));
+            form.reset();
         } else {
             // Handle error
             console.error('Failed to login:', response);
         }
     }
 
-
-    useEffect(() => {
-        console.log(userUUID);
-
-        // Fetch the question from the API
-        fetch('/api/question') // replace with your actual API endpoint
-            .then(response => response.json())
-            .then(data => setQuestion(data.question)); // replace 'question' with the actual key in the response
-    }, [userUUID]);
-
-
     return (
         <Background>
             <Title>TagAlong</Title>
-            <h1>UUID from URL: {userUUID}</h1>
             <div className="flex items-center justify-center">
                 <Card className="w-[280px]">
                     <CardHeader>
+                        <CardTitle>
+                        Let's know you better! {":)"}
+                        </CardTitle>
                         <CardDescription className="flex justify-center">
-                            Let's get to know you {":)"}
+                            {question}
                         </CardDescription>
                     </CardHeader>
                     <CardContent className="flex items-center">
-                        <Form {...Form}>
+                        <Form {...form}>
                             <form
-                                onSubmit={Form.handleSubmit(onSubmit)}
+                                onSubmit={form.handleSubmit(onSubmit)}
                                 className="space-y-6 w-full"
                             >
                                 <FormField
-                                    control={Form.control}
-                                    name="name"
+                                    control={form.control}
+                                    name="answer"
                                     render={({ field }) => (
                                         <FormItem>
-                                            <FormLabel>Name</FormLabel>
+                                            <FormLabel>Answer</FormLabel>
                                             <div className="flex items-center">
                                                 <User className="mr-3 h-4 w-4" />
                                                 <FormControl>
                                                     <Input
                                                         {...field}
                                                         placeholder={
-                                                            "First Last"
+                                                            ""
                                                         }
                                                     />
                                                 </FormControl>
@@ -136,27 +161,6 @@ function Register() {
                                     )}
                                 />
 
-                                <FormField
-                                    control={Form.control}
-                                    name="birthday"
-                                    render={({ field }) => (
-                                        <FormItem>
-                                            <FormLabel>Birthday</FormLabel>
-                                            <div className="flex items-center">
-                                                <CalendarIcon className="mr-3 h-4 w-4" />
-                                                <FormControl>
-                                                    <Input
-                                                        {...field}
-                                                        placeholder={
-                                                            "YYYY-MM-DD"
-                                                        }
-                                                    />
-                                                </FormControl>
-                                            </div>
-                                            <FormMessage></FormMessage>
-                                        </FormItem>
-                                    )}
-                                />
                                 <Button
                                     className="w-1/4 bg-peach "
                                     type="submit"
@@ -170,6 +174,6 @@ function Register() {
             </div>
         </Background>
     );
-
 }
+
 export default Register;

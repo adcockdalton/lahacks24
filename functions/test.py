@@ -12,9 +12,14 @@ genai.configure(api_key=os.getenv('GOOGLE_API'))
 model = genai.GenerativeModel('gemini-pro')
 
 
-def storeValue(parameter: dict):
+def storeValue(name: str, birthday: str):
+    temp = {
+        "name": name,
+        "birthday": birthday
+    }
+
     # Path to the JSON file
-    filepath = '../data/user.json'
+    filepath = 'data/user.json'
 
     # Initialize the data dictionary
     if not os.path.exists(filepath) or os.path.getsize(filepath) == 0:
@@ -27,18 +32,18 @@ def storeValue(parameter: dict):
     myuuid = str(uuid.uuid4())
 
     # Store the parameter under the generated UUID
-    json_data[myuuid] = parameter
+    json_data[myuuid] = temp
 
     # Write the updated data back to the file
     with open(filepath, 'w') as json_file:
         json.dump(json_data, json_file, indent=4)
 
     
-    with open("../data/context.json", "r") as json_file:
+    with open("data/context.json", "r") as json_file:
         json_data = json.load(json_file)
-        json_data[myuuid] = {"Q": 1, "initial": [], "context_question": [], "context":[]}
+        json_data[myuuid] = {"Q": 0, "initial": [], "context_question": [], "context":[]}
     
-    with open("../data/context.json", "w") as json_file:
+    with open("data/context.json", "w") as json_file:
         json.dump(json_data, json_file, indent=4)
 
     return myuuid

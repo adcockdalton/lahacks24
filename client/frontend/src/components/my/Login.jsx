@@ -77,7 +77,7 @@ function Login() {
     async function onSubmit(data) {
         console.log(data);
         
-        const response = await fetch('/api/login', {
+        const response = await fetch('http://127.0.0.1:8000/setUser', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -91,7 +91,7 @@ function Login() {
             // TODO: replace "123" with the actual UUID from the response
             const UUID = result.uuid || "123";
     
-            navigate("/register/" + UUID);
+            navigate(`/register/${UUID}`);
         } else {
             // Handle error
             console.error('Failed to login:', response);
