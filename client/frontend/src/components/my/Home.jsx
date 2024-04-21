@@ -92,7 +92,11 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
-const subscribedChats = ["123", "456"];
+const subscribedChats = [
+    "Beachside Concert",
+    "Coffee Tasting",
+    "Poetry Reading",
+];
 
 export default function Home() {
     const form = useForm({
@@ -170,7 +174,7 @@ export default function Home() {
                                 <div className="p-1">
                                     <Card>
                                         <CardHeader>
-                                            <CardTitle>Chat #{chat}</CardTitle>
+                                            <CardTitle>{chat}</CardTitle>
                                         </CardHeader>
                                         <CardContent className="flex flex-col w-full aspect-square justify-start px-6 py-2">
                                             <ScrollToBottom className="h-5/6 flex flex-col align-bottom max-h-full">
@@ -194,10 +198,9 @@ export default function Home() {
                                                             <span className="flex h-2 w-2 translate-y-1 rounded-full bg-peach" />
                                                             <div className="space-y-1">
                                                                 <p className="text-sm font-medium leading-none">
-                                                                    {
+                                                                    {"User #" +
                                                                         message[1]
-                                                                            .user
-                                                                    }
+                                                                            .user}
                                                                 </p>
                                                                 <p className="text-sm text-muted-foreground">
                                                                     {
