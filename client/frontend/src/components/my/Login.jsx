@@ -1,14 +1,29 @@
-import React, { useEffect } from "react";
+import React from "react";
 import styled from "styled-components";
 
-import { ChevronsLeft, ChevronsRight } from "lucide-react";
+import { ChevronsRight } from "lucide-react";
 
-import { format } from "date-fns";
-import { Calendar as CalendarIcon } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
-import { cn } from "./../../lib/utils";
-import { Popover, PopoverContent, PopoverTrigger } from "./../ui/popover";
+import { Calendar as CalendarIcon, UserRound as User } from "lucide-react";
+
 import { Button } from "./../ui/button";
+
+import { Input } from "./../ui/input";
+
+import { zodResolver } from "@hookform/resolvers/zod";
+import { useForm } from "react-hook-form";
+import { z } from "zod";
+
+import {
+    Form,
+    FormControl,
+    FormDescription,
+    FormField,
+    FormItem,
+    FormLabel,
+    FormMessage,
+} from "./../ui/form";
 
 import {
     Card,
@@ -16,105 +31,124 @@ import {
     CardDescription,
     CardFooter,
     CardHeader,
-    CardTitle,
 } from "./../ui/card";
 
-import { Calendar } from "./../ui/calendar";
+import BackgroundGraphic from "./../../assets/bg2.svg";
 
 const Title = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 5rem;
+    font-size: 10rem;
+    font-family: "Dela Gothic One", cursive;
 `;
 
-function Login() {
-    const [date, setDate] = React.useState(new Date("January 1, 2000"));
+const Background = styled.div`
+    background-image: url(${BackgroundGraphic});
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    height: 100vh;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-evenly;
+`;
 
-    useEffect(() => {
-        // TODO
-    }, [date]);
+const FormSchema = z.object({
+    name: z.string().min(4, {
+        message: "Name must be 4+ characters.",
+    }),
+    birthday: z.coerce.date(),
+});
+
+function Login() {
+    const navigate = useNavigate();
+
+    const form = useForm({
+        resolver: zodResolver(FormSchema),
+        defaultValues: {
+            name: "",
+            birthday: "",
+        },
+    });
+
+    function onSubmit(data) {
+        console.log(data);
+        navigate("/register");
+    }
 
     return (
-        <div className="flex flex-col justify-evenly h-screen">
-            <Title>title (no styling yet)</Title>
+        <Background>
+            <Title>TagAlong</Title>
             <div className="flex items-center justify-center">
-                <Card className="w-[350px]">
+                <Card className="w-[280px]">
                     <CardHeader>
-                        <CardTitle>Login</CardTitle>
-                        <CardDescription className="py-3">
-                            Let's get to know you <span>😊</span>
+                        <CardDescription className="flex justify-center">
+                            Let's get to know you {":)"}
                         </CardDescription>
                     </CardHeader>
-                    <CardContent>
-                        <Popover>
-                            <PopoverTrigger asChild>
-                                <Button
-                                    variant={"outline"}
-                                    className={cn(
-                                        "w-[280px] justify-start text-left font-normal",
-                                        !date && "text-muted-foreground"
+                    <CardContent className="flex items-center">
+                        <Form {...form}>
+                            <form
+                                onSubmit={form.handleSubmit(onSubmit)}
+                                className="space-y-6 w-full"
+                            >
+                                <FormField
+                                    control={form.control}
+                                    name="name"
+                                    render={({ field }) => (
+                                        <FormItem>
+                                            <FormLabel>Name</FormLabel>
+                                            <div className="flex items-center">
+                                                <User className="mr-3 h-4 w-4" />
+                                                <FormControl>
+                                                    <Input
+                                                        {...field}
+                                                        placeholder={
+                                                            "First Last"
+                                                        }
+                                                    />
+                                                </FormControl>
+                                            </div>
+                                            <FormMessage></FormMessage>
+                                        </FormItem>
                                     )}
-                                >
-                                    <CalendarIcon className="mr-2 h-4 w-4" />
-                                    {date ? (
-                                        format(date, "PPP")
-                                    ) : (
-                                        <span>Pick a date</span>
-                                    )}
-                                </Button>
-                            </PopoverTrigger>
-                            <PopoverContent className="flex w-auto flex-col justify-center pt-6">
-                                <Calendar
-                                    mode="single"
-                                    selected={date}
-                                    onSelect={setDate}
-                                    defaultMonth={date}
                                 />
-                                <div className="flex justify-around">
-                                    <Button
-                                        className="h-7 w-7 p-0 bg-slate-900 opacity-100 hover:opacity-80"
-                                        onClick={() =>
-                                            setDate(
-                                                new Date(
-                                                    date.setFullYear(
-                                                        date.getFullYear() - 1
-                                                    )
-                                                )
-                                            )
-                                        }
-                                    >
-                                        <ChevronsLeft className="h-4 w-4"></ChevronsLeft>
-                                    </Button>
-                                    <div className="flex flex-col justify-center">
-                                        <p className="text-sm font-medium">
-                                            Pick your birthday!
-                                        </p>
-                                    </div>
-                                    <Button
-                                        className="h-7 w-7 p-0 bg-slate-900 opacity-100 hover:opacity-80"
-                                        onClick={() =>
-                                            setDate(
-                                                new Date(
-                                                    date.setFullYear(
-                                                        date.getFullYear() + 1
-                                                    )
-                                                )
-                                            )
-                                        }
-                                    >
-                                        <ChevronsRight className="h-4 w-4"></ChevronsRight>
-                                    </Button>
-                                </div>
-                            </PopoverContent>
-                        </Popover>
+
+                                <FormField
+                                    control={form.control}
+                                    name="birthday"
+                                    render={({ field }) => (
+                                        <FormItem>
+                                            <FormLabel>Birthday</FormLabel>
+                                            <div className="flex items-center">
+                                                <CalendarIcon className="mr-3 h-4 w-4" />
+                                                <FormControl>
+                                                    <Input
+                                                        {...field}
+                                                        placeholder={
+                                                            "YYYY-MM-DD"
+                                                        }
+                                                    />
+                                                </FormControl>
+                                            </div>
+                                            <FormMessage></FormMessage>
+                                        </FormItem>
+                                    )}
+                                />
+                                <Button
+                                    className="w-1/4 bg-peach "
+                                    type="submit"
+                                >
+                                    <ChevronsRight className="size-4" />
+                                </Button>
+                            </form>
+                        </Form>
                     </CardContent>
-                    <CardFooter>
-                        <Button>Go!</Button>
-                    </CardFooter>
                 </Card>
             </div>
-        </div>
+        </Background>
     );
 }
 
