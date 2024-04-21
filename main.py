@@ -1,3 +1,6 @@
+import json
+import os
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -43,3 +46,11 @@ async def setAnswer(a: Answer):
     storeAnswer(a.uuid, a.answer)
     return {"message": "Done"}
 
+@app.get("/getRelatedEvent")
+async def getRelatedEvent():
+    os.remove("../data/event_result.json")
+
+    with open("../data/event_result.json", "r") as fobj:
+        event_result: dict = json.load(fobj)
+
+    return event_result
