@@ -12,6 +12,16 @@ class InitAgent(Model):
 
 
 @dataclass(kw_only = True, frozen = True)
+class AddStudents(Model):
+    pass
+
+
+@dataclass(kw_only = True, frozen = True)
+class AddOrganizers(Model):
+    pass
+
+
+@dataclass(kw_only = True, frozen = True)
 class OrgJoinRequest(Model):  # org wants to add a rep
     event: str
     description: str
