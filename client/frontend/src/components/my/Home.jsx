@@ -54,7 +54,7 @@ export default function Home() {
     }, []);
 
     return (
-        <div className="flex justify-center w-screen py-20">
+        <div className="flex justify-center w-screen h-4/5 py-10">
             <Chats data={globalData} />
         </div>
     );
@@ -64,7 +64,7 @@ function Chats(props) {
     const { data } = props;
 
     return (
-        <Carousel className="w-full max-h-full max-w-xs">
+        <Carousel className="max-w-xs">
             <CarouselContent>
                 {subscribedChats.map((chat) => (
                     <CarouselItem key={chat} className="flex flex-col">
@@ -73,7 +73,7 @@ function Chats(props) {
                                 <CardHeader>
                                     <CardTitle>Chat #{chat}</CardTitle>
                                 </CardHeader>
-                                <CardContent className="flex flex-col aspect-square justify-start p-6">
+                                <CardContent className="flex flex-col w-full aspect-square justify-start p-6">
                                     <ScrollArea>
                                         {data[chat] &&
                                         data[chat].messages &&
