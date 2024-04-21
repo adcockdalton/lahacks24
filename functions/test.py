@@ -1,10 +1,10 @@
 import json
 import uuid
 import os
-from check import internalCheck
+from .check import internalCheck
 import google.generativeai as genai
 from dotenv import load_dotenv
-from user import addUser
+from .user import addUser
 
 load_dotenv()
 
@@ -77,13 +77,13 @@ def getQuestion(uuid: str):
 # with open('user.json', 'r+') as json_file:
 #     json_data         = json.load(json_file)
 #     print(json_data)
-sample_user = {"name": "John", "birthday": "1990-01-01"}
-sample_uuid = storeValue(sample_user)
+# sample_user = {"name": "John", "birthday": "1990-01-01"}
+# sample_uuid = storeValue(sample_user)
 
 
-output = getQuestion(sample_uuid)
-#print(output)
+# output = getQuestion(sample_uuid)
+# #print(output)
 
-uuid = "a8b316c1-689d-47bb-afde-32cd6ea50859"
-output=getQuestion(uuid)
-print(output)
+# uuid = "a8b316c1-689d-47bb-afde-32cd6ea50859"
+# output=getQuestion(uuid)
+# print(output)
