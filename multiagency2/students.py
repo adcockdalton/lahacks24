@@ -7,7 +7,7 @@ from multiagency2.embedder import EventEmbedder
 from multiagency2.vector_db import VectorDB
 
 
-student_manager = Agent(name = "student")
+student_manager = Agent(name = "student manager", seed = "student")
 eb = EventEmbedder()
 vdb = VectorDB(local = True)
 
@@ -54,6 +54,19 @@ async def check_new_student(ctx: Context):  # for each new student created
 
         print(uuid, persona, events)
         # print(uuid, data, " ".join(context_data[uuid]["initial"]), " ".join(context_data[uuid]["context_question"]))
+
+    with open("../data/event_result.json", "w") as fobj:
+        json.dump({
+            "title": "Cultural Diversity Day",
+            "texts": "Celebrate the richness of cultural diversity in our school! Explore traditions, taste global cuisines, and participate in multicultural performances.",
+            "metadatas": {
+              "county": "New York County, New York"
+            },
+            "ids": "54"
+          },
+            fobj
+        )
+        json.load(fobj)
 
     # vector embed and request the most similar events for each user
     # request weather data? alongside
