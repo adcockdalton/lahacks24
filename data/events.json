@@ -1,0 +1,1600 @@
+[
+  {
+    "title": "Chess Masters Tournament",
+    "texts": "Join us for an exhilarating chess tournament where students showcase their strategic skills and compete for the title of Chess Master. All skill levels are welcome!",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "1"
+  },
+  {
+    "title": "Robotics Workshop",
+    "texts": "Explore the fascinating world of robotics in our hands-on workshop. Learn how to build and program robots to complete exciting challenges!",
+    "metadatas": {
+      "county": "Cook County, Illinois"
+    },
+    "ids": "2"
+  },
+  {
+    "title": "Outdoor Photography Club",
+    "texts": "Capture the beauty of nature with our outdoor photography club. Join us for weekly outings to scenic spots and improve your photography skills!",
+    "metadatas": {
+      "county": "King County, Washington"
+    },
+    "ids": "3"
+  },
+  {
+    "title": "Coding Hackathon",
+    "texts": "Calling all aspiring programmers! Compete in our coding hackathon and showcase your coding prowess in solving real-world problems.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "4"
+  },
+  {
+    "title": "Surfing School",
+    "texts": "Hang ten with our weekly surfing sessions! Learn how to catch waves and ride the surf like a pro under the guidance of experienced instructors.",
+    "metadatas": {
+      "county": "Honolulu County, Hawaii"
+    },
+    "ids": "5"
+  },
+  {
+    "title": "Creative Writing Club",
+    "texts": "Express yourself through the written word in our creative writing club! Explore various genres and styles with guidance from published authors.",
+    "metadatas": {
+      "county": "San Francisco County, California"
+    },
+    "ids": "6"
+  },
+  {
+    "title": "Math Olympiad",
+    "texts": "Test your mathematical skills in our annual Math Olympiad! Solve challenging problems and compete against other students to win prizes.",
+    "metadatas": {
+      "county": "Fairfax County, Virginia"
+    },
+    "ids": "7"
+  },
+  {
+    "title": "Debate Club",
+    "texts": "Engage in lively debates on current issues in our debate club! Hone your argumentation and public speaking skills in a supportive environment.",
+    "metadatas": {
+      "county": "Multnomah County, Oregon"
+    },
+    "ids": "8"
+  },
+  {
+    "title": "Astronomy Night",
+    "texts": "Explore the wonders of the universe in our astronomy night! Observe celestial objects through telescopes and learn about the cosmos.",
+    "metadatas": {
+      "county": "Boulder County, Colorado"
+    },
+    "ids": "9"
+  },
+  {
+    "title": "Art Exhibition",
+    "texts": "Celebrate creativity and talent in our art exhibition! View stunning artworks created by students and participate in interactive art activities.",
+    "metadatas": {
+      "county": "King County, Washington"
+    },
+    "ids": "10"
+  },
+  {
+    "title": "Environmental Cleanup Day",
+    "texts": "Join us in preserving the environment by participating in our cleanup day! Help clean up parks, beaches, and other natural areas in our community.",
+    "metadatas": {
+      "county": "Miami-Dade County, Florida"
+    },
+    "ids": "11"
+  },
+  {
+    "title": "Film Making Workshop",
+    "texts": "Unleash your creativity in our film making workshop! Learn about scriptwriting, cinematography, and editing to produce your own short films.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "12"
+  },
+  {
+    "title": "Scuba Diving Course",
+    "texts": "Dive into the depths of the ocean with our scuba diving course! Learn diving techniques and explore marine life in our certified training program.",
+    "metadatas": {
+      "county": "Monroe County, Florida"
+    },
+    "ids": "13"
+  },
+  {
+    "title": "Language Exchange Club",
+    "texts": "Immerse yourself in different cultures with our language exchange club! Practice speaking and learn new languages in a fun and supportive environment.",
+    "metadatas": {
+      "county": "Cook County, Illinois"
+    },
+    "ids": "14"
+  },
+  {
+    "title": "Physics Symposium",
+    "texts": "Delve into the fascinating world of physics at our symposium! Explore topics such as quantum mechanics, relativity, and astrophysics.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "15"
+  },
+  {
+    "title": "Music Production Workshop",
+    "texts": "Learn the art of music production in our workshop! Explore recording techniques, sound design, and digital audio workstations.",
+    "metadatas": {
+      "county": "Kings County, New York"
+    },
+    "ids": "16"
+  },
+  {
+    "title": "Mountaineering Expedition",
+    "texts": "Embark on an exciting mountaineering expedition with us! Scale peaks, conquer challenges, and experience the thrill of high-altitude adventure.",
+    "metadatas": {
+      "county": "San Bernardino County, California"
+    },
+    "ids": "17"
+  },
+  {
+    "title": "Gardening Club",
+    "texts": "Connect with nature and cultivate green spaces in our gardening club! Learn about plant care, sustainable gardening practices, and more.",
+    "metadatas": {
+      "county": "King County, Washington"
+    },
+    "ids": "18"
+  },
+  {
+    "title": "Model United Nations Conference",
+    "texts": "Engage in diplomacy and debate at our Model United Nations conference! Represent countries and tackle global issues in a simulated UN setting.",
+    "metadatas": {
+      "county": "New York County, New York"
+    },
+    "ids": "19"
+  },
+  {
+    "title": "Archery Workshop",
+    "texts": "Master the art of archery in our workshop! Learn proper techniques, improve your aim, and participate in friendly competitions.",
+    "metadatas": {
+      "county": "Harris County, Texas"
+    },
+    "ids": "20"
+  },
+  {
+    "title": "Book Club",
+    "texts": "Join fellow book lovers in our book club! Explore diverse genres, discuss literary themes, and discover new perspectives through reading.",
+    "metadatas": {
+      "county": "King County, Washington"
+    },
+    "ids": "21"
+  },
+  {
+    "title": "Cooking Class",
+    "texts": "Ignite your culinary creativity in our cooking class! Learn recipes, cooking techniques, and culinary tips from professional chefs.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "22"
+  },
+  {
+    "title": "Eco-Friendly Fashion Show",
+    "texts": "Celebrate sustainable fashion in our eco-friendly fashion show! Discover stylish and environmentally-conscious clothing designs.",
+    "metadatas": {
+      "county": "San Francisco County, California"
+    },
+    "ids": "23"
+  },
+  {
+    "title": "Yoga Retreat",
+    "texts": "Relax and rejuvenate in our yoga retreat! Join us for mindful practices, meditation sessions, and wellness workshops.",
+    "metadatas": {
+      "county": "Marin County, California"
+    },
+    "ids": "24"
+  },
+  {
+    "title": "DIY Electronics Club",
+    "texts": "Get hands-on with electronics in our DIY club! Learn to build circuits, solder components, and create your own electronic gadgets.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "25"
+  },
+  {
+    "title": "Marine Biology Field Trip",
+    "texts": "Dive into marine ecosystems on our field trip! Explore tide pools, study marine organisms, and learn about ocean conservation.",
+    "metadatas": {
+      "county": "San Diego County, California"
+    },
+    "ids": "26"
+  },
+  {
+    "title": "Poetry Slam",
+    "texts": "Express yourself through poetry in our slam event! Share your original poems or enjoy performances by fellow poets in a supportive atmosphere.",
+    "metadatas": {
+      "county": "King County, Washington"
+    },
+    "ids": "27"
+  },
+  {
+    "title": "Woodworking Workshop",
+    "texts": "Unleash your creativity with wood in our workshop! Learn carpentry skills, woodworking techniques, and create your own masterpieces.",
+    "metadatas": {
+      "county": "Multnomah County, Oregon"
+    },
+    "ids": "28"
+  },
+  {
+    "title": "Physics Olympics",
+    "texts": "Test your physics knowledge and problem-solving skills in our Physics Olympics! Compete in challenging events and win prizes.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "29"
+  },
+  {
+    "title": "Fencing Club",
+    "texts": "Engage in the elegant sport of fencing in our club! Learn swordplay techniques, participate in sparring sessions, and compete in tournaments.",
+    "metadatas": {
+      "county": "Fairfax County, Virginia"
+    },
+    "ids": "30"
+  },
+  {
+    "title": "Journalism Workshop",
+    "texts": "Explore the world of journalism in our workshop! Learn about news writing, investigative reporting, and multimedia storytelling.",
+    "metadatas": {
+      "county": "Cook County, Illinois"
+    },
+    "ids": "31"
+  },
+  {
+    "title": "Rock Climbing Expedition",
+    "texts": "Conquer vertical challenges on our rock climbing expedition! Learn climbing techniques, safety practices, and experience breathtaking views.",
+    "metadatas": {
+      "county": "San Bernardino County, California"
+    },
+    "ids": "32"
+  },
+  {
+    "title": "Dance Workshop",
+    "texts": "Move to the rhythm in our dance workshop! Explore various dance styles, improve your technique, and express yourself through movement.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "33"
+  },
+  {
+    "title": "Philosophy Circle",
+    "texts": "Engage in philosophical discussions in our circle! Explore profound questions, debate ideas, and ponder the mysteries of existence.",
+    "metadatas": {
+      "county": "Multnomah County, Oregon"
+    },
+    "ids": "34"
+  },
+  {
+    "title": "Martial Arts Club",
+    "texts": "Unleash your inner warrior in our martial arts club! Learn self-defense techniques, discipline, and respect in a supportive environment.",
+    "metadatas": {
+      "county": "Honolulu County, Hawaii"
+    },
+    "ids": "35"
+  },
+  {
+    "title": "Drama Production",
+    "texts": "Take the stage in our drama production! Audition for roles, rehearse scenes, and showcase your acting talent in our theatrical performance.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "36"
+  },
+  {
+    "title": "Environmental Science Club",
+    "texts": "Explore environmental issues in our science club! Conduct experiments, study ecosystems, and take action for a sustainable future.",
+    "metadatas": {
+      "county": "King County, Washington"
+    },
+    "ids": "37"
+  },
+  {
+    "title": "Chess Club",
+    "texts": "Sharpen your strategic thinking in our chess club! Learn chess tactics, participate in friendly matches, and improve your game.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "38"
+  },
+  {
+    "title": "Sustainability Symposium",
+    "texts": "Join us for discussions on sustainability in our symposium! Explore topics such as renewable energy, conservation, and sustainable living.",
+    "metadatas": {
+      "county": "King County, Washington"
+    },
+    "ids": "39"
+  },
+  {
+    "title": "Fashion Design Workshop",
+    "texts": "Express your style in our fashion design workshop! Learn fashion sketching, garment construction, and unleash your creativity on the runway.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "40"
+  },
+  {
+    "title": "Ultimate Frisbee Tournament",
+    "texts": "Join us for high-flying fun in our Ultimate Frisbee tournament! Compete in fast-paced matches and showcase your throwing skills.",
+    "metadatas": {
+      "county": "King County, Washington"
+    },
+    "ids": "41"
+  },
+  {
+    "title": "Astrophotography Night",
+    "texts": "Capture the beauty of the night sky in our astrophotography event! Learn photography techniques and photograph celestial objects.",
+    "metadatas": {
+      "county": "San Bernardino County, California"
+    },
+    "ids": "42"
+  },
+  {
+    "title": "Computer Science Club",
+    "texts": "Dive into the world of computing in our computer science club! Learn programming languages, explore algorithms, and develop software projects.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "43"
+  },
+  {
+    "title": "Cooking Competition",
+    "texts": "Spice up your culinary skills in our cooking competition! Prepare dishes, impress the judges, and compete for the title of Master Chef.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "44"
+  },
+  {
+    "title": "Amateur Astronomy Club",
+    "texts": "Explore the cosmos in our amateur astronomy club! Learn about telescopes, observe celestial objects, and discover the wonders of the universe.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "45"
+  },
+  {
+    "title": "Film Screening",
+    "texts": "Enjoy movie nights with us in our film screening events! Watch classic films, indie productions, and thought-provoking documentaries.",
+    "metadatas": {
+      "county": "King County, Washington"
+    },
+    "ids": "46"
+  },
+  {
+    "title": "Fitness Bootcamp",
+    "texts": "Get fit and healthy in our fitness bootcamp! Join intense workouts, set goals, and achieve your fitness aspirations with expert guidance.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "47"
+  },
+  {
+    "title": "Culinary Tour",
+    "texts": "Embark on a culinary adventure with us on our tour! Explore local cuisine, visit food markets, and savor delicious dishes from around the world.",
+    "metadatas": {
+      "county": "Cook County, Illinois"
+    },
+    "ids": "48"
+  },
+  {
+    "title": "Hiking Expedition",
+    "texts": "Explore scenic trails and breathtaking landscapes on our hiking expedition! Trek through nature, discover hidden gems, and connect with the outdoors.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "49"
+  },
+  {
+    "title": "Photography Contest",
+    "texts": "Showcase your photography skills in our contest! Submit your best shots, compete for prizes, and gain recognition for your talent.",
+    "metadatas": {
+      "county": "San Francisco County, California"
+    },
+    "ids": "50"
+  },
+  {
+    "title": "Escape Room Challenge",
+    "texts": "Test your teamwork and problem-solving skills in our escape room challenge! Work together to unravel mysteries, crack codes, and escape before time runs out.",
+    "metadatas": {
+      "county": "King County, Washington"
+    },
+    "ids": "51"
+  },
+  {
+    "title": "Sustainability Workshop",
+    "texts": "Learn about sustainable living practices in our workshop! Explore topics such as recycling, energy conservation, and reducing carbon footprint.",
+    "metadatas": {
+      "county": "Multnomah County, Oregon"
+    },
+    "ids": "52"
+  },
+  {
+    "title": "Wildlife Conservation Expedition",
+    "texts": "Join us on a wildlife conservation expedition! Explore natural habitats, participate in field research, and contribute to conservation efforts.",
+    "metadatas": {
+      "county": "San Diego County, California"
+    },
+    "ids": "53"
+  },
+  {
+    "title": "Cultural Diversity Day",
+    "texts": "Celebrate the richness of cultural diversity in our school! Explore traditions, taste global cuisines, and participate in multicultural performances.",
+    "metadatas": {
+      "county": "New York County, New York"
+    },
+    "ids": "54"
+  },
+  {
+    "title": "Entrepreneurship Bootcamp",
+    "texts": "Turn your business ideas into reality in our entrepreneurship bootcamp! Learn about startup strategies, pitch your concepts, and receive mentorship.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "55"
+  },
+  {
+    "title": "Paintball Tournament",
+    "texts": "Gear up for adrenaline-pumping action in our paintball tournament! Strategize with your team, navigate obstacles, and outwit your opponents.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "56"
+  },
+  {
+    "title": "Zumba Fitness Party",
+    "texts": "Get ready to dance your way to fitness in our Zumba party! Join the energetic workout, groove to Latin rhythms, and burn calories with fun.",
+    "metadatas": {
+      "county": "Miami-Dade County, Florida"
+    },
+    "ids": "57"
+  },
+  {
+    "title": "Environmental Art Project",
+    "texts": "Express environmental messages through art in our project! Create eco-friendly artworks, raise awareness, and inspire action for a greener world.",
+    "metadatas": {
+      "county": "King County, Washington"
+    },
+    "ids": "58"
+  },
+  {
+    "title": "Robotics Competition",
+    "texts": "Compete in our robotics competition and showcase your engineering skills! Design and build robots to complete challenges and win prizes.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "59"
+  },
+  {
+    "title": "Outdoor Adventure Club",
+    "texts": "Embark on thrilling outdoor adventures with our club! Hike through scenic trails, camp under the stars, and explore the wonders of nature.",
+    "metadatas": {
+      "county": "King County, Washington"
+    },
+    "ids": "60"
+  },
+  {
+    "title": "Cooking Workshop: International Cuisine",
+    "texts": "Take a culinary journey around the world in our workshop! Learn to cook delicious dishes from different countries and savor global flavors.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "61"
+  },
+  {
+    "title": "Sculpture Studio",
+    "texts": "Unleash your creativity in our sculpture studio! Learn sculpting techniques, work with various materials, and bring your artistic visions to life.",
+    "metadatas": {
+      "county": "Multnomah County, Oregon"
+    },
+    "ids": "62"
+  },
+  {
+    "title": "Coding Club: Game Development",
+    "texts": "Create your own video games in our coding club! Learn game development concepts, code interactive experiences, and unleash your creativity.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "63"
+  },
+  {
+    "title": "Exploration Day: Science Fair",
+    "texts": "Discover the wonders of science in our exploration day! Engage in hands-on experiments, explore scientific concepts, and showcase your projects.",
+    "metadatas": {
+      "county": "King County, Washington"
+    },
+    "ids": "64"
+  },
+  {
+    "title": "Fashion Photography Workshop",
+    "texts": "Capture style and glamour in our fashion photography workshop! Learn lighting techniques, posing, and composition to create stunning fashion images.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "65"
+  },
+  {
+    "title": "Community Service Day: Habitat Restoration",
+    "texts": "Make a positive impact on the environment in our community service day! Restore habitats, plant trees, and support local conservation efforts.",
+    "metadatas": {
+      "county": "Marin County, California"
+    },
+    "ids": "66"
+  },
+  {
+    "title": "Music Jam Session",
+    "texts": "Join fellow musicians for a jam session in our music club! Play your instrument, improvise melodies, and enjoy the camaraderie of music-making.",
+    "metadatas": {
+      "county": "Kings County, New York"
+    },
+    "ids": "67"
+  },
+  {
+    "title": "Public Speaking Workshop",
+    "texts": "Build confidence and communication skills in our public speaking workshop! Learn techniques to deliver powerful speeches and presentations.",
+    "metadatas": {
+      "county": "Cook County, Illinois"
+    },
+    "ids": "68"
+  },
+  {
+    "title": "Digital Art Lab",
+    "texts": "Explore digital creativity in our art lab! Learn digital painting, graphic design, and multimedia art techniques using industry-standard software.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "69"
+  },
+  {
+    "title": "Movie Making Camp",
+    "texts": "Create cinematic masterpieces in our movie making camp! Learn scriptwriting, cinematography, and editing to produce your own films.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "70"
+  },
+  {
+    "title": "Dance Fitness Class",
+    "texts": "Get fit while grooving to the beat in our dance fitness class! Enjoy high-energy workouts, learn dance routines, and have fun getting in shape.",
+    "metadatas": {
+      "county": "Miami-Dade County, Florida"
+    },
+    "ids": "71"
+  },
+  {
+    "title": "Nature Photography Expedition",
+    "texts": "Capture the beauty of nature on our photography expedition! Explore scenic locations, photograph wildlife, and enhance your photography skills.",
+    "metadatas": {
+      "county": "San Francisco County, California"
+    },
+    "ids": "72"
+  },
+  {
+    "title": "Bookbinding Workshop",
+    "texts": "Learn the art of bookbinding in our workshop! Create handmade books, explore binding techniques, and unleash your creativity in bookmaking.",
+    "metadatas": {
+      "county": "Multnomah County, Oregon"
+    },
+    "ids": "73"
+  },
+  {
+    "title": "Creative Coding Club",
+    "texts": "Combine art and technology in our creative coding club! Experiment with programming, create interactive artworks, and explore digital creativity.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "74"
+  },
+  {
+    "title": "Cooking Class: Baking Bonanza",
+    "texts": "Discover the joy of baking in our class! Learn baking techniques, whip up delicious treats, and indulge in the sweet delights of pastry.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "75"
+  },
+  {
+    "title": "Robotics Showcase",
+    "texts": "Showcase your robot creations in our robotics event! Demonstrate functionality, innovation, and design prowess in an exciting showcase.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "76"
+  },
+  {
+    "title": "Photography Walk",
+    "texts": "Explore the world through your lens on our photography walk! Capture street scenes, architecture, and candid moments in our guided photo tour.",
+    "metadatas": {
+      "county": "King County, Washington"
+    },
+    "ids": "77"
+  },
+  {
+    "title": "Mindfulness Meditation Session",
+    "texts": "Find inner peace and tranquility in our mindfulness meditation session! Practice mindfulness techniques, calm your mind, and cultivate presence.",
+    "metadatas": {
+      "county": "Marin County, California"
+    },
+    "ids": "78"
+  },
+  {
+    "title": "Physics Experiment Workshop",
+    "texts": "Get hands-on with physics in our experiment workshop! Conduct exciting experiments, explore scientific principles, and deepen your understanding of physics.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "79"
+  },
+  {
+    "title": "Rock Band Jam",
+    "texts": "Rock out with fellow musicians in our band jam session! Play your instrument, jam to your favorite tunes, and experience the thrill of live music.",
+    "metadatas": {
+      "county": "Kings County, New York"
+    },
+    "ids": "80"
+  },
+  {
+    "title": "Fitness Challenge",
+    "texts": "Take on our fitness challenge and push your limits! Participate in various workouts, set personal goals, and embrace a healthier lifestyle.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "81"
+  },
+  {
+    "title": "Art Therapy Workshop",
+    "texts": "Discover healing through art in our therapy workshop! Express emotions, reduce stress, and foster personal growth through creative expression.",
+    "metadatas": {
+      "county": "Multnomah County, Oregon"
+    },
+    "ids": "82"
+  },
+  {
+    "title": "Environmental Documentary Screening",
+    "texts": "Raise awareness about environmental issues in our documentary screening! Watch thought-provoking films, engage in discussions, and inspire action.",
+    "metadatas": {
+      "county": "San Francisco County, California"
+    },
+    "ids": "83"
+  },
+  {
+    "title": "Language Club: Conversation Hour",
+    "texts": "Practice language skills in a relaxed setting in our conversation hour! Engage in conversations, improve fluency, and connect with language learners.",
+    "metadatas": {
+      "county": "Cook County, Illinois"
+    },
+    "ids": "84"
+  },
+  {
+    "title": "Dance Performance",
+    "texts": "Showcase your dance talent in our performance! Choreograph routines, dazzle the audience, and express yourself through the art of dance.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "85"
+  },
+  {
+    "title": "Wilderness Survival Training",
+    "texts": "Learn essential survival skills in our wilderness training! Master navigation, shelter building, and foraging to thrive in the great outdoors.",
+    "metadatas": {
+      "county": "Marin County, California"
+    },
+    "ids": "86"
+  },
+  {
+    "title": "Creative Writing Workshop",
+    "texts": "Unleash your imagination in our creative writing workshop! Explore different genres, receive feedback, and craft compelling stories and poems.",
+    "metadatas": {
+      "county": "King County, Washington"
+    },
+    "ids": "87"
+  },
+  {
+    "title": "Gardening Workshop: Urban Farming",
+    "texts": "Learn to grow your own food in our urban farming workshop! Explore gardening techniques, cultivate plants, and create green spaces in the city.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "88"
+  },
+  {
+    "title": "History Club: Time Travel Symposium",
+    "texts": "Journey through history in our time travel symposium! Explore different eras, discuss historical events, and delve into the mysteries of the past.",
+    "metadatas": {
+      "county": "New York County, New York"
+    },
+    "ids": "89"
+  },
+  {
+    "title": "Mosaic Art Workshop",
+    "texts": "Create stunning mosaic artworks in our workshop! Learn mosaic techniques, design patterns, and assemble colorful pieces into beautiful compositions.",
+    "metadatas": {
+      "county": "Multnomah County, Oregon"
+    },
+    "ids": "90"
+  },{
+    "title": "Virtual Reality Gaming Tournament",
+    "texts": "Immerse yourself in virtual worlds in our gaming tournament! Compete in VR games, experience thrilling adventures, and claim victory.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "91"
+  },
+  {
+    "title": "Biohacking Workshop",
+    "texts": "Explore the cutting-edge field of biohacking in our workshop! Learn about DIY biology, bioinformatics, and experiment with biotechnology.",
+    "metadatas": {
+      "county": "San Francisco County, California"
+    },
+    "ids": "92"
+  },
+  {
+    "title": "Outdoor Yoga Retreat",
+    "texts": "Connect with nature and inner peace in our outdoor yoga retreat! Practice yoga poses, meditate in serene surroundings, and rejuvenate mind and body.",
+    "metadatas": {
+      "county": "Marin County, California"
+    },
+    "ids": "93"
+  },
+  {
+    "title": "Game Design Challenge",
+    "texts": "Put your game design skills to the test in our challenge! Conceptualize, prototype, and present innovative game ideas to a panel of judges.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "94"
+  },
+  {
+    "title": "Culinary Adventure: Food Truck Tour",
+    "texts": "Embark on a culinary journey with our food truck tour! Sample delicious street food, explore diverse cuisines, and savor gourmet delights.",
+    "metadatas": {
+      "county": "Cook County, Illinois"
+    },
+    "ids": "95"
+  },
+  {
+    "title": "Mediterranean Cooking Class",
+    "texts": "Learn to cook Mediterranean cuisine in our class! Master recipes from Greece, Italy, and Spain, and delight in the flavors of the Mediterranean.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "96"
+  },
+  {
+    "title": "DIY Home Automation Workshop",
+    "texts": "Transform your home with smart technology in our workshop! Learn about home automation systems, IoT devices, and create your own smart home setup.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "97"
+  },
+  {
+    "title": "Sustainable Fashion Design Contest",
+    "texts": "Promote eco-conscious fashion in our design contest! Create sustainable clothing designs, incorporate recycled materials, and showcase your creativity.",
+    "metadatas": {
+      "county": "San Francisco County, California"
+    },
+    "ids": "98"
+  },
+  {
+    "title": "Dance Marathon",
+    "texts": "Dance the night away in our marathon event! Join us for hours of non-stop dancing, music, and fun while raising funds for charity.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "99"
+  },
+  {
+    "title": "Adventure Racing Challenge",
+    "texts": "Embark on an epic adventure race with us! Navigate obstacles, trek through rugged terrain, and conquer challenges in this ultimate test of endurance.",
+    "metadatas": {
+      "county": "San Bernardino County, California"
+    },
+    "ids": "100"
+  },
+  {
+    "title": "Ethical Hacking Workshop",
+    "texts": "Learn about cybersecurity and ethical hacking in our workshop! Explore penetration testing, network security, and ethical hacking techniques.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "101"
+  },
+  {
+    "title": "Sushi Making Class",
+    "texts": "Master the art of sushi making in our class! Learn sushi rolling techniques, prepare sushi rice, and create delicious sushi rolls and sashimi.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "102"
+  },
+  {
+    "title": "Mind Mapping Workshop",
+    "texts": "Unlock your creative potential in our mind mapping workshop! Learn mind mapping techniques, brainstorm ideas, and enhance your productivity.",
+    "metadatas": {
+      "county": "Cook County, Illinois"
+    },
+    "ids": "103"
+  },
+  {
+    "title": "Outdoor Painting Retreat",
+    "texts": "Find inspiration in nature on our outdoor painting retreat! Set up your easel, capture landscapes, and unleash your creativity amidst scenic beauty.",
+    "metadatas": {
+      "county": "Marin County, California"
+    },
+    "ids": "104"
+  },
+  {
+    "title": "Environmental Engineering Challenge",
+    "texts": "Tackle environmental problems in our engineering challenge! Design innovative solutions, address pollution, and contribute to a cleaner planet.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "105"
+  },
+  {
+    "title": "Martial Arts Exhibition",
+    "texts": "Experience the power and grace of martial arts in our exhibition! Witness captivating performances, demonstrations, and martial arts disciplines.",
+    "metadatas": {
+      "county": "Honolulu County, Hawaii"
+    },
+    "ids": "106"
+  },
+  {
+    "title": "Zero Waste Lifestyle Workshop",
+    "texts": "Embrace sustainability in our zero waste lifestyle workshop! Learn tips for reducing waste, upcycling, and living a more eco-friendly lifestyle.",
+    "metadatas": {
+      "county": "San Francisco County, California"
+    },
+    "ids": "107"
+  },
+  {
+    "title": "Indoor Skydiving Experience",
+    "texts": "Feel the thrill of skydiving indoors in our experience! Float on a column of air, experience weightlessness, and enjoy the sensation of freefall.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "108"
+  },
+  {
+    "title": "Astrobiology Seminar",
+    "texts": "Explore the possibility of life beyond Earth in our seminar! Dive into astrobiology, discuss extraterrestrial life forms, and ponder the mysteries of the cosmos.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "109"
+  },
+  {
+    "title": "Gourmet Chocolate Tasting",
+    "texts": "Indulge your sweet tooth in our chocolate tasting! Sample artisan chocolates, learn about chocolate-making techniques, and savor decadent flavors.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "110"
+  },
+  {
+    "title": "Sustainability Hackathon",
+    "texts": "Collaborate on innovative solutions for sustainability in our hackathon! Brainstorm ideas, develop prototypes, and pitch solutions to real-world challenges.",
+    "metadatas": {
+      "county": "San Francisco County, California"
+    },
+    "ids": "111"
+  },
+  {
+    "title": "Creative Gardening Workshop",
+    "texts": "Let your garden thrive in our creative gardening workshop! Learn about plant care, design beautiful landscapes, and cultivate a green sanctuary.",
+    "metadatas": {
+      "county": "Multnomah County, Oregon"
+    },
+    "ids": "112"
+  },
+  {
+    "title": "Parkour Training Session",
+    "texts": "Learn the art of movement in our parkour training session! Develop agility, strength, and fluidity as you navigate urban obstacles and environments.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "113"
+  },
+  {
+    "title": "Space Exploration Symposium",
+    "texts": "Embark on a journey to the final frontier in our symposium! Explore space exploration missions, futuristic technologies, and the possibilities of space travel.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "114"
+  },
+  {
+    "title": "Ethical Fashion Show",
+    "texts": "Celebrate ethical and sustainable fashion in our show! Showcase eco-friendly designs, promote fair trade practices, and inspire conscious consumerism.",
+    "metadatas": {
+      "county": "San Francisco County, California"
+    },
+    "ids": "115"
+  },
+  {
+    "title": "Mindfulness Art Therapy",
+    "texts": "Find peace and healing through creative expression in our art therapy session! Engage in mindful art practices, express emotions, and foster self-discovery.",
+    "metadatas": {
+      "county": "Multnomah County, Oregon"
+    },
+    "ids": "116"
+  },
+  {
+    "title": "Filmmaking Workshop: Documentary Filmmaking",
+    "texts": "Tell compelling stories through documentary filmmaking in our workshop! Learn about documentary techniques, storytelling, and produce your own documentary.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "117"
+  },
+  {
+    "title": "Science Fiction Book Club",
+    "texts": "Explore alternate realities and futuristic worlds in our book club! Discuss science fiction novels, engage in speculative discussions, and embrace the wonders of imagination.",
+    "metadatas": {
+      "county": "King County, Washington"
+    },
+    "ids": "118"
+  },
+  {
+    "title": "Drone Racing Competition",
+    "texts": "Pilot your drone to victory in our racing competition! Navigate obstacle courses, showcase aerial skills, and compete for the title of drone racing champion.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "119"
+  },
+  {
+    "title": "Artificial Intelligence Workshop",
+    "texts": "Dive into the world of AI in our workshop! Explore machine learning, neural networks, and develop AI projects with hands-on guidance.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "120"
+  },
+  {
+    "title": "Permaculture Design Course",
+    "texts": "Learn about sustainable living principles in our permaculture course! Explore permaculture design, organic gardening, and create resilient ecosystems.",
+    "metadatas": {
+      "county": "Multnomah County, Oregon"
+    },
+    "ids": "121"
+  },
+  {
+    "title": "Circus Arts Workshop",
+    "texts": "Discover the magic of circus arts in our workshop! Learn juggling, acrobatics, and aerial skills, and experience the thrill of the big top.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "122"
+  },
+  {
+    "title": "Bioinformatics Symposium",
+    "texts": "Explore the intersection of biology and computer science in our symposium! Dive into bioinformatics research, analyze genomic data, and unravel biological mysteries.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "123"
+  },
+  {
+    "title": "Vintage Fashion Fair",
+    "texts": "Step back in time at our vintage fashion fair! Browse retro clothing, accessories, and discover timeless style from decades past.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "124"
+  },
+  {
+    "title": "Neuroscience Workshop",
+    "texts": "Explore the complexity of the brain in our neuroscience workshop! Investigate neural circuits, brain functions, and discover the wonders of neuroscience.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "125"
+  },
+  {
+    "title": "Urban Foraging Tour",
+    "texts": "Discover edible treasures in the city on our foraging tour! Learn about wild plants, sustainable harvesting, and enjoy the flavors of urban nature.",
+    "metadatas": {
+      "county": "Multnomah County, Oregon"
+    },
+    "ids": "126"
+  },
+  {
+    "title": "Astronomy Camp",
+    "texts": "Embark on a celestial adventure at our astronomy camp! Explore the night sky, observe planets, and learn about the wonders of the universe.",
+    "metadatas": {
+      "county": "San Bernardino County, California"
+    },
+    "ids": "127"
+  },
+  {
+    "title": "Retro Video Game Tournament",
+    "texts": "Relive the golden age of gaming in our tournament! Play classic video games, compete for high scores, and reminisce about gaming nostalgia.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "128"
+  },
+  {
+    "title": "Marine Conservation Volunteer Program",
+    "texts": "Make a difference for marine life in our volunteer program! Participate in beach cleanups, monitor marine habitats, and support ocean conservation initiatives.",
+    "metadatas": {
+      "county": "San Diego County, California"
+    },
+    "ids": "129"
+  },
+  {
+    "title": "DIY Renewable Energy Workshop",
+    "texts": "Harness the power of renewable energy in our workshop! Build solar panels, explore wind turbines, and learn how to create sustainable energy solutions.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "130"
+  },
+  {
+    "title": "Vintage Car Show",
+    "texts": "Marvel at classic automobiles at our vintage car show! Admire vintage cars, learn about automotive history, and experience the nostalgia of bygone eras.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "131"
+  },
+  {
+    "title": "Cognitive Psychology Seminar",
+    "texts": "Explore the workings of the mind in our psychology seminar! Delve into cognitive processes, memory, and perception, and unravel the mysteries of human cognition.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "132"
+  },
+  {
+    "title": "Retro Arcade Night",
+    "texts": "Step into the past at our retro arcade night! Play classic arcade games, challenge friends to competitions, and experience arcade nostalgia.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "133"
+  },
+  {
+    "title": "Creative Coding Workshop: Generative Art",
+    "texts": "Create art through code in our workshop! Explore generative art techniques, experiment with algorithms, and generate mesmerizing visual patterns.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "134"
+  },
+  {
+    "title": "Community Gardening Project",
+    "texts": "Grow together in our community gardening project! Cultivate organic produce, beautify green spaces, and foster community connections through gardening.",
+    "metadatas": {
+      "county": "Multnomah County, Oregon"
+    },
+    "ids": "135"
+  },
+  {
+    "title": "Digital Detox Retreat",
+    "texts": "Unplug and recharge in our digital detox retreat! Disconnect from screens, reconnect with nature, and embrace mindful living in a digital-free environment.",
+    "metadatas": {
+      "county": "Marin County, California"
+    },
+    "ids": "136"
+  },
+  {
+    "title": "Cryptocurrency Workshop",
+    "texts": "Enter the world of digital currency in our workshop! Learn about blockchain technology, cryptocurrency mining, and explore the future of finance.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "137"
+  },
+  {
+    "title": "Alternative Energy Expo",
+    "texts": "Discover innovative energy solutions at our expo! Explore solar power, wind energy, and other renewable technologies shaping the future of energy.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "138"
+  },
+  {
+    "title": "Artificial Life Workshop",
+    "texts": "Explore the frontier of artificial life in our workshop! Experiment with artificial intelligence, virtual organisms, and simulate life forms in digital environments.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "139"
+  },
+  {
+    "title": "Sustainable Architecture Tour",
+    "texts": "Discover green building design in our architecture tour! Explore eco-friendly buildings, learn about sustainable materials, and embrace sustainable living.",
+    "metadatas": {
+      "county": "San Francisco County, California"
+    },
+    "ids": "140"
+  },
+  {
+    "title": "Park Cleanup Day",
+    "texts": "Join us for a day of environmental stewardship in our park cleanup! Pick up litter, remove invasive species, and beautify our community park.",
+    "metadatas": {
+      "county": "Multnomah County, Oregon"
+    },
+    "ids": "141"
+  },
+  {
+    "title": "Virtual Photography Tour",
+    "texts": "Explore iconic landmarks from around the world in our virtual photography tour! Capture stunning images, learn photography techniques, and travel from the comfort of home.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "142"
+  },
+  {
+    "title": "Creative Recycling Workshop",
+    "texts": "Transform recyclable materials into art in our workshop! Explore creative reuse, upcycling techniques, and turn trash into treasure with eco-friendly crafts.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "143"
+  },
+  {
+    "title": "Space Settlement Design Challenge",
+    "texts": "Design habitats for future space exploration in our challenge! Explore space architecture, tackle engineering challenges, and envision life beyond Earth.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "144"
+  },
+  {
+    "title": "Holistic Wellness Retreat",
+    "texts": "Nurture your mind, body, and spirit in our wellness retreat! Experience holistic therapies, practice mindfulness, and embark on a journey of self-discovery.",
+    "metadatas": {
+      "county": "Marin County, California"
+    },
+    "ids": "145"
+  },
+  {
+    "title": "DIY Music Production Workshop",
+    "texts": "Create your own music in our production workshop! Learn music production software, compose tracks, and unleash your creativity in sound.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "146"
+  },
+  {
+    "title": "Science Communication Symposium",
+    "texts": "Bridge the gap between science and society in our symposium! Explore science communication, engage in outreach, and inspire public interest in science.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "147"
+  },
+  {
+    "title": "Upcycled Fashion Workshop",
+    "texts": "Transform old clothes into fashion statements in our workshop! Learn upcycling techniques, repurpose textiles, and create unique sustainable fashion.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "148"
+  },
+  {
+    "title": "Neurotech Hackathon",
+    "texts": "Merge neuroscience and technology in our hackathon! Brainstorm neurotech solutions, develop brain-computer interfaces, and innovate at the intersection of brain science and tech.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "149"
+  },
+  {
+    "title": "Adventure Photography Expedition",
+    "texts": "Capture epic moments in nature on our photography expedition! Explore remote landscapes, photograph wildlife, and hone your photography skills in the great outdoors.",
+    "metadatas": {
+      "county": "San Francisco County, California"
+    },
+    "ids": "150"
+  },{
+    "title": "Campus Picnic Day",
+    "texts": "Join us for a fun-filled day of picnicking on campus! Bring your blankets and baskets, enjoy delicious food, and engage in outdoor games and activities with fellow students.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "151"
+  },
+  {
+    "title": "Outdoor Movie Night",
+    "texts": "Grab your friends and blankets for an outdoor movie night under the stars! Enjoy a screening of a popular film, indulge in snacks, and relish the communal movie-watching experience.",
+    "metadatas": {
+      "county": "Cook County, Illinois"
+    },
+    "ids": "152"
+  },
+  {
+    "title": "Community BBQ Cookout",
+    "texts": "Fire up the grill and join us for a community BBQ cookout! Feast on grilled favorites, mingle with fellow students, and enjoy the lively atmosphere of outdoor dining.",
+    "metadatas": {
+      "county": "Maricopa County, Arizona"
+    },
+    "ids": "153"
+  },
+  {
+    "title": "Outdoor Yoga Session",
+    "texts": "Connect with nature and classmates in our outdoor yoga session! Practice yoga poses, breathe in fresh air, and cultivate mindfulness in the serene outdoor setting.",
+    "metadatas": {
+      "county": "King County, Washington"
+    },
+    "ids": "154"
+  },
+  {
+    "title": "Sports Day Extravaganza",
+    "texts": "Get active and competitive in our sports day extravaganza! Participate in various outdoor sports and games, form teams, and cheer each other on for a day of friendly rivalry.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "155"
+  },
+  {
+    "title": "Outdoor Concert Series",
+    "texts": "Groove to the music at our outdoor concert series! Enjoy live performances by local bands and artists, dance with friends, and soak in the vibrant atmosphere of outdoor music.",
+    "metadatas": {
+      "county": "Multnomah County, Oregon"
+    },
+    "ids": "156"
+  },
+  {
+    "title": "Hiking and Trail Exploration",
+    "texts": "Embark on a scenic hike and trail exploration with fellow students! Discover nature's wonders, enjoy breathtaking views, and bond over shared outdoor adventures.",
+    "metadatas": {
+      "county": "San Mateo County, California"
+    },
+    "ids": "157"
+  },
+  {
+    "title": "Outdoor Board Game Bonanza",
+    "texts": "Bring your competitive spirit to our outdoor board game bonanza! Play classic board games, strategize with friends, and enjoy friendly competition in the sunshine.",
+    "metadatas": {
+      "county": "Cook County, Illinois"
+    },
+    "ids": "158"
+  },
+  {
+    "title": "Ultimate Frisbee Tournament",
+    "texts": "Join the ultimate frisbee tournament for a day of high-flying fun! Compete with teams, showcase your frisbee skills, and bond with fellow players over a spirited game.",
+    "metadatas": {
+      "county": "King County, Washington"
+    },
+    "ids": "159"
+  },
+  {
+    "title": "Outdoor Art Jam",
+    "texts": "Unleash your creativity in our outdoor art jam! Bring your art supplies, express yourself through painting or sketching, and enjoy the inspiring company of fellow artists.",
+    "metadatas": {
+      "county": "Multnomah County, Oregon"
+    },
+    "ids": "160"
+  },
+  {
+    "title": "Campfire Storytelling Night",
+    "texts": "Gather around the campfire for an evening of storytelling! Share tales, myths, and personal anecdotes with friends, and immerse yourself in the magic of storytelling under the stars.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "161"
+  },
+  {
+    "title": "Outdoor Photography Walk",
+    "texts": "Capture the beauty of campus and nature on our photography walk! Explore scenic spots, snap photos, and exchange photography tips with fellow shutterbugs.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "162"
+  },
+  {
+    "title": "Outdoor Dance Party",
+    "texts": "Get ready to dance the night away at our outdoor dance party! Groove to the beats of DJs, socialize with classmates, and create unforgettable memories on the dance floor.",
+    "metadatas": {
+      "county": "Maricopa County, Arizona"
+    },
+    "ids": "163"
+  },
+  {
+    "title": "Camping Retreat",
+    "texts": "Escape into nature with us on a camping retreat! Pitch tents, roast marshmallows, and bond with fellow campers over shared outdoor adventures and campfire stories.",
+    "metadatas": {
+      "county": "San Mateo County, California"
+    },
+    "ids": "164"
+  },
+  {
+    "title": "Outdoor Potluck Dinner",
+    "texts": "Join us for a delicious outdoor potluck dinner! Bring your favorite dish to share, sample a variety of homemade cuisines, and enjoy a communal dining experience with friends.",
+    "metadatas": {
+      "county": "Cook County, Illinois"
+    },
+    "ids": "165"
+  },
+  {
+    "title": "Nature Photography Workshop",
+    "texts": "Enhance your photography skills in our nature photography workshop! Learn composition techniques, capture wildlife, and immerse yourself in the beauty of the great outdoors.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "166"
+  },
+  {
+    "title": "Outdoor Zumba Fitness Class",
+    "texts": "Dance your way to fitness in our outdoor Zumba class! Join the energetic dance workout, sweat it out with friends, and have fun getting fit in the open air.",
+    "metadatas": {
+      "county": "Maricopa County, Arizona"
+    },
+    "ids": "167"
+  },
+  {
+    "title": "Outdoor Trivia Night",
+    "texts": "Test your knowledge at our outdoor trivia night! Form teams, answer challenging questions, and enjoy a night of brain-teasing fun and friendly competition under the stars.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "168"
+  },
+  {
+    "title": "Nature Scavenger Hunt",
+    "texts": "Embark on a thrilling nature scavenger hunt with friends! Follow clues, explore the campus and surrounding areas, and race against time to find hidden treasures.",
+    "metadatas": {
+      "county": "Multnomah County, Oregon"
+    },
+    "ids": "169"
+  },
+  {
+    "title": "Outdoor Acoustic Jam Session",
+    "texts": "Bring your instruments and join our outdoor acoustic jam session! Strum guitars, play percussion, and jam with fellow musicians in a relaxed outdoor setting.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "170"
+  },
+  {
+    "title": "Outdoor Group Fitness Challenge",
+    "texts": "Challenge yourself in our outdoor group fitness session! Push your limits with a variety of exercises, support each other, and achieve fitness goals together.",
+    "metadatas": {
+      "county": "Maricopa County, Arizona"
+    },
+    "ids": "171"
+  },
+  {
+    "title": "Community Garden Harvest",
+    "texts": "Join us for a harvest celebration at the community garden! Gather fresh produce, enjoy garden-fresh snacks, and bond with fellow gardeners over shared gardening experiences.",
+    "metadatas": {
+      "county": "King County, Washington"
+    },
+    "ids": "172"
+  },
+  {
+    "title": "Outdoor Open Mic Night",
+    "texts": "Showcase your talents at our outdoor open mic night! Perform music, poetry, comedy, or any other form of creative expression and enjoy a supportive audience under the stars.",
+    "metadatas": {
+      "county": "Multnomah County, Oregon"
+    },
+    "ids": "173"
+  },
+  {
+    "title": "Outdoor DIY Craft Workshop",
+    "texts": "Get crafty in our outdoor DIY craft workshop! Create handmade crafts, learn new techniques, and socialize with fellow craft enthusiasts amidst the beauty of nature.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "174"
+  },
+  {
+    "title": "Outdoor Meditation Session",
+    "texts": "Find inner peace and tranquility in our outdoor meditation session! Connect with nature, practice mindfulness, and recharge your spirit in the serene outdoor environment.",
+    "metadatas": {
+      "county": "San Mateo County, California"
+    },
+    "ids": "175"
+  },
+  {
+    "title": "Outdoor Storytime Circle",
+    "texts": "Join us for a cozy outdoor storytime circle! Share your favorite stories, listen to others, and enjoy the enchanting experience of storytelling in nature.",
+    "metadatas": {
+      "county": "Cook County, Illinois"
+    },
+    "ids": "176"
+  },
+  {
+    "title": "Outdoor Dance Workshop: Salsa",
+    "texts": "Learn the sultry moves of salsa in our outdoor dance workshop! Follow the rhythm, partner up with classmates, and master the art of salsa dancing under the open sky.",
+    "metadatas": {
+      "county": "Maricopa County, Arizona"
+    },
+    "ids": "177"
+  },
+  {
+    "title": "Outdoor Wellness Retreat",
+    "texts": "Nurture your well-being in our outdoor wellness retreat! Participate in yoga, meditation, and mindfulness activities, and rejuvenate mind, body, and soul in nature's embrace.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "178"
+  },
+  {
+    "title": "Outdoor Cooking Class: BBQ Basics",
+    "texts": "Master the art of BBQ in our outdoor cooking class! Learn grilling techniques, barbecue recipes, and enjoy the smoky flavors of outdoor cooking with classmates.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "179"
+  },
+  {
+    "title": "Nature Art and Craft Fair",
+    "texts": "Celebrate creativity and nature at our art and craft fair! Explore handmade artworks, nature-inspired crafts, and connect with local artists and artisans in the great outdoors.",
+    "metadatas": {
+      "county": "Multnomah County, Oregon"
+    },
+    "ids": "180"
+  },
+  {
+    "title": "Outdoor Drum Circle",
+    "texts": "Join the rhythm of the drums in our outdoor drum circle! Drummers of all levels are welcome to join the beats, create music together, and experience the power of collective rhythm.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "181"
+  },
+  {
+    "title": "Outdoor Creative Writing Workshop",
+    "texts": "Unleash your imagination in our outdoor creative writing workshop! Engage in writing prompts, share your stories, and find inspiration in the beauty of the natural world.",
+    "metadatas": {
+      "county": "San Mateo County, California"
+    },
+    "ids": "182"
+  },
+  {
+    "title": "Outdoor Astronomy Night",
+    "texts": "Explore the cosmos in our outdoor astronomy night! Observe celestial objects through telescopes, learn about stars and constellations, and marvel at the wonders of the night sky.",
+    "metadatas": {
+      "county": "King County, Washington"
+    },
+    "ids": "183"
+  },
+  {
+    "title": "Outdoor Watercolor Painting Workshop",
+    "texts": "Capture the beauty of nature in watercolor in our outdoor workshop! Learn painting techniques, experiment with colors, and create stunning landscapes en plein air.",
+    "metadatas": {
+      "county": "Multnomah County, Oregon"
+    },
+    "ids": "184"
+  },
+  {
+    "title": "Outdoor Astronomy Hike",
+    "texts": "Combine hiking and stargazing in our astronomy hike! Trek to a scenic spot, enjoy panoramic views, and observe the night sky with telescopes and astronomy guides.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "185"
+  },
+  {
+    "title": "Outdoor Mindfulness Walk",
+    "texts": "Immerse yourself in the present moment on our outdoor mindfulness walk! Practice mindful walking, connect with nature, and experience inner peace in the beauty of the outdoors.",
+    "metadatas": {
+      "county": "San Mateo County, California"
+    },
+    "ids": "186"
+  },
+  {
+    "title": "Outdoor Pottery Workshop",
+    "texts": "Get your hands dirty in our outdoor pottery workshop! Learn pottery techniques, mold clay into artful creations, and enjoy the tactile experience of working with clay outdoors.",
+    "metadatas": {
+      "county": "Maricopa County, Arizona"
+    },
+    "ids": "187"
+  },
+  {
+    "title": "Outdoor Karaoke Night",
+    "texts": "Sing your heart out at our outdoor karaoke night! Belt out your favorite tunes, cheer on fellow singers, and enjoy a night of musical entertainment under the stars.",
+    "metadatas": {
+      "county": "Los Angeles County, California"
+    },
+    "ids": "188"
+  },
+  {
+    "title": "Outdoor Poetry Slam",
+    "texts": "Express yourself through poetry at our outdoor poetry slam! Share your verses, listen to others, and experience the power of spoken word in the open air.",
+    "metadatas": {
+      "county": "Cook County, Illinois"
+    },
+    "ids": "189"
+  },
+  {
+    "title": "Outdoor Group Painting Session",
+    "texts": "Unleash your creativity in our outdoor group painting session! Set up easels outdoors, paint en plein air, and enjoy the camaraderie of painting with fellow artists.",
+    "metadatas": {
+      "county": "King County, Washington"
+    },
+    "ids": "190"
+  },
+  {
+    "title": "Outdoor Tai Chi Class",
+    "texts": "Find balance and harmony in our outdoor Tai Chi class! Practice gentle movements, connect with nature, and cultivate inner peace in the serene outdoor environment.",
+    "metadatas": {
+      "county": "Multnomah County, Oregon"
+    },
+    "ids": "191"
+  },
+  {
+    "title": "Outdoor Adventure Race",
+    "texts": "Embark on an outdoor adventure race with friends! Navigate obstacles, solve challenges, and work together as a team to conquer the racecourse and emerge victorious.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "192"
+  },
+  {
+    "title": "Outdoor Planting Party",
+    "texts": "Greenify the campus at our outdoor planting party! Plant trees, flowers, and shrubs, beautify outdoor spaces, and contribute to a greener, more vibrant campus environment.",
+    "metadatas": {
+      "county": "San Mateo County, California"
+    },
+    "ids": "193"
+  },
+  {
+    "title": "Outdoor Cooking Competition",
+    "texts": "Show off your culinary skills in our outdoor cooking competition! Prepare signature dishes, impress the judges, and compete for the title of outdoor cooking champion.",
+    "metadatas": {
+      "county": "Maricopa County, Arizona"
+    },
+    "ids": "194"
+  },
+  {
+    "title": "Outdoor Astronomy Lecture",
+    "texts": "Expand your cosmic knowledge in our outdoor astronomy lecture! Listen to guest speakers, learn about celestial phenomena, and engage in fascinating discussions under the night sky.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "195"
+  },
+  {
+    "title": "Outdoor Book Club Gathering",
+    "texts": "Discuss literature in our outdoor book club gathering! Share insights on selected books, exchange recommendations, and enjoy the pleasure of reading amidst nature's beauty.",
+    "metadatas": {
+      "county": "Cook County, Illinois"
+    },
+    "ids": "196"
+  },
+  {
+    "title": "Outdoor Baking Workshop",
+    "texts": "Bake up a storm in our outdoor baking workshop! Learn baking techniques, whip up sweet treats, and savor the aroma of freshly baked goods in the open air.",
+    "metadatas": {
+      "county": "King County, Washington"
+    },
+    "ids": "197"
+  },
+  {
+    "title": "Outdoor Environmental Education Day",
+    "texts": "Learn about nature and sustainability in our outdoor education day! Participate in eco-friendly activities, explore environmental topics, and deepen your connection with the natural world.",
+    "metadatas": {
+      "county": "Multnomah County, Oregon"
+    },
+    "ids": "198"
+  },
+  {
+    "title": "Outdoor Drumming Workshop",
+    "texts": "Feel the rhythm in our outdoor drumming workshop! Learn drumming techniques, jam with classmates, and experience the joy of making music outdoors.",
+    "metadatas": {
+      "county": "Santa Clara County, California"
+    },
+    "ids": "199"
+  },
+  {
+    "title": "Outdoor Chess Tournament",
+    "texts": "Test your strategic skills in our outdoor chess tournament! Make your moves, challenge opponents, and enjoy the intellectual competition amidst the beauty of nature.",
+    "metadatas": {
+      "county": "Maricopa County, Arizona"
+    },
+    "ids": "200"
+  }
+]
