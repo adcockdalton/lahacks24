@@ -15,6 +15,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 
+
 import {
     Form,
     FormControl,
@@ -73,12 +74,28 @@ function Login() {
         },
     });
 
-    function onSubmit(data) {
+    async function onSubmit(data) {
         console.log(data);
-
-        const UUID = "123"; // TODO: make this the actual UUID
-
-        navigate("/register/" + UUID);
+        
+        const response = await fetch('/api/login', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        });
+    
+        if (response.ok) {
+            const result = await response.json();
+    
+            // TODO: replace "123" with the actual UUID from the response
+            const UUID = result.uuid || "123";
+    
+            navigate("/register/" + UUID);
+        } else {
+            // Handle error
+            console.error('Failed to login:', response);
+        }
     }
 
     return (
