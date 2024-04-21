@@ -56,6 +56,8 @@ import { Textarea } from "./../ui/textarea";
 import { ScrollArea } from "../ui/scroll-area";
 import { useParams } from "react-router-dom";
 
+import ScrollToBottom from "react-scroll-to-bottom";
+
 import BackgroundGraphic from "./../../assets/bg2.svg";
 import { sub } from "date-fns";
 const Background = styled.div`
@@ -151,6 +153,7 @@ export default function Home() {
                 globalData.chats[data.key] = data.val();
                 setGlobalData(globalData);
                 console.log("Global data set...", globalData);
+                this.refs.scroll.goToBottom(400);
             }
         } catch (e) {
             console.log(e);
@@ -170,7 +173,7 @@ export default function Home() {
                                             <CardTitle>Chat #{chat}</CardTitle>
                                         </CardHeader>
                                         <CardContent className="flex flex-col w-full aspect-square justify-start px-6 py-2">
-                                            <ScrollArea className="h-5/6 flex flex-col align-bottom">
+                                            <ScrollToBottom className="h-5/6 flex flex-col align-bottom max-h-full">
                                                 {globalData.chats[chat] &&
                                                 globalData.chats[chat]
                                                     .messages &&
@@ -213,8 +216,7 @@ export default function Home() {
                                                         get started!
                                                     </div>
                                                 )}
-                                                <div id="scroller"></div>
-                                            </ScrollArea>
+                                            </ScrollToBottom>
                                         </CardContent>
                                         <CardContent className="w-full"></CardContent>
                                     </Card>
