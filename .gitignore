@@ -1,3 +1,4 @@
 secrets.toml
 .idea/
 .env
+**/__pycache__/
